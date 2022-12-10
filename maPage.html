@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon titre</title>
+        <meta charset="utf-8" />
+        <link href="styles.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="monScript.js" async></script>
+    </head>
+    <body>
+        <div id="PVMonstre1">100 pv</div>    
+        <div id="PVMonstre2">100 pv</div>  
+        <div id="PVMonstre3">100 pv</div>  
+        <div id="PVHero1">100 pv</div>    
+        <div id="PVHero2">100 pv</div>  
+        <div id="PVHero3">100 pv</div>  
+        <div id="PVHero4">100 pv</div>  
+        <div id="personnages">
+            <div class="players">
+                <img src="sprite pingouin.png" class="player" id="imgPerso1"> 
+                <img src="sprite yeti.png" class="player" id="imgPerso2">
+                <img src="sprite katieice.png" class="player" id="imgPerso3">
+                <img src="sprite konqiair.png" class="player" id="imgPerso4"> 
+            </div>    
+            <div class="monsters">
+                <img src="dark konqiair.png" class="monster" id="imgMonstre1">    
+                <img src="dark yeti.png" class="monster" id="imgMonstre2" >   
+                <img src="dark pingouin.png" class="monster" id="imgMonstre3" >
+            </div>
+        </div>
+        <div class="HUD">
+            <div id="HUDperso1">
+            <button id="attaque" onclick="attaquer1()">Attaquer</button>
+            <button id="bloquer" onclick="bloquer()">Bloquer</button>
+            <button id="soin" onclick="soin()">pouvoir</button>
+            </div>
+            <div id="HUDperso2">
+            <button id="attaque" onclick="attaquer2()">Attaquer</button>
+            <button id="bloquer" onclick="bloquer()">Bloquer</button>
+            <button id="soin" onclick="soin()">pouvoir</button>
+            </div>
+            <div id="HUDperso3">
+            <button id="attaque" onclick="attaquer3()">Attaquer</button>
+            <button id="bloquer" onclick="bloquer()">Bloquer</button>
+            <button id="soin" onclick="soin()">pouvoir</button>
+            </div>
+            <div id="HUDperso4">
+            <button id="attaque" onclick="attaquer4()">Attaquer</button>
+            <button id="bloquer" onclick="bloquer()">Bloquer</button>
+            <button id="soin" onclick="soin()">pouvoir</button>
+            </div>
+        </div>
+        <button id="play" onclick="play()">play</button>
+    </body>
+
+</html>

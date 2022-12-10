@@ -1,0 +1,190 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-image: url("backuground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+
+
+#personnages{
+    width : 100%;
+    height : 100%;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.monsters{
+    display:flex;
+    flex-direction: row;
+}
+
+.monster:hover{
+
+    filter: drop-shadow(0 0 0.75rem crimson);
+
+}
+
+.player:hover{
+    filter: drop-shadow(0 1rem 3rem #FFFFFF);
+}
+
+.players{
+    display:flex;
+    flex-direction: row;
+}
+
+.HUD{
+    width : 100%;
+    height : 200px;
+    background-image: url("fondboite.png");
+    background-size: cover;
+    border : solid;
+    display:flex;
+    flex-direction: row;
+}
+#PVMonstre1{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:63%;
+    bottom:20%;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#PVMonstre2{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:72.5%;
+    bottom:20%;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#PVMonstre3{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:83%;
+    bottom:20%;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#PVHero1{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:7.5%;
+    bottom:20%;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#PVHero2{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:18.3%;
+    bottom:20%;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#PVHero3{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:28.4%;
+    bottom:20%;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#PVHero4{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:38%;
+    bottom:20%;     
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(0, 0, 0, 0.6);
+}
+#HUDperso1{
+    display:flex;
+    flex-direction : column;
+    position:absolute;
+    left: 10%   
+}
+#HUDperso2{
+    display:flex;
+    flex-direction : column;
+    position:absolute;
+    left:20%;
+}
+#HUDperso3{
+    display:flex;
+    flex-direction : column;
+    position:absolute;
+    left:31%;
+}
+#HUDperso4{
+    display:flex;
+    flex-direction : column;
+    position:absolute;
+    left:41%;
+}
+#play{
+    position:absolute;
+    z-index: 3;
+    left:30%;
+    bottom:40%;     
+    margin: 10px;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+}
+
